@@ -1,0 +1,40 @@
+body {
+  background-color: #d9e6f2;
+}
+
+h1 {
+  color: #336699;
+  margin-left: 40px;
+  font-size: 48px;
+} 
+th, td {
+  color: #336699;
+  margin-left: 40px;
+  font-size: 13px;
+}
+
+
+p {
+  color: maroon;
+  margin-left: 40px;
+  font-size: 8px;
+} 
+
+.table td.fit, 
+.table th.fit {
+    white-space: nowrap;
+    width: 1%;
+    font-size: 48px;
+  
+}
+
+
+.table-wrapper-scroll-x {
+display: block;
+max-width:	100%;
+overflow-x: auto;
+-ms-overflow-style: -ms-autohiding-scrollbar;
+width: 100% !important;
+font-size: 10px; !important;
+
+}
